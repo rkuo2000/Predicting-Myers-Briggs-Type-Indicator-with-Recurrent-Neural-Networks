@@ -10,7 +10,8 @@ import tensorflow as tf
 from nltk import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords 
-from sklearn.externals import joblib
+#from sklearn.externals import joblib
+import joblib
 from sklearn.pipeline import Pipeline
 from sklearn.cross_validation import KFold
 from sklearn.metrics import confusion_matrix, accuracy_score
