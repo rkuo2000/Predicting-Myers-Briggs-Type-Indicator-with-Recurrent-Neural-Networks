@@ -38,7 +38,7 @@ EMBEDDING_VECTOR_LENGTH = 50
 ### Learning variables
 LEARNING_RATE = 0.01
 DROPOUT = 0.1
-NUM_EPOCHS = 3
+NUM_EPOCHS = 1
 
 ### Control variables
 CROSS_VALIDATION = False
