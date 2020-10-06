@@ -13,7 +13,7 @@ from nltk.corpus import stopwords
 #from sklearn.externals import joblib
 import joblib
 from sklearn.pipeline import Pipeline
-from sklearn.cross_validation import KFold
+from sklearn.model_selection import KFold
 from sklearn.metrics import confusion_matrix, accuracy_score
 from keras.wrappers.scikit_learn import KerasClassifier
 from keras.models import Sequential
