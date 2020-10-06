@@ -20,7 +20,7 @@ EMBEDDING_VECTOR_LENGTH = 20
 final = ''
 
 x_test = []
-with open('trumptweets.csv', 'r', encoding="ISO-8859-1") as f:
+with open('"trump prediction"/trumptweets.csv', 'r', encoding="ISO-8859-1") as f:
 	reader = csv.reader(f)
 	for row in f:
 		x_test.append(row)
