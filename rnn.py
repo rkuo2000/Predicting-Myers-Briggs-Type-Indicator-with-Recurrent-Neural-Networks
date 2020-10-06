@@ -111,7 +111,7 @@ for k in range(len(DIMENSIONS)):
 	
 	### Load glove into memory for embedding
 	embeddings_index = dict()
-	with open('glove.6B.50d.txt') as f: 
+	with open('/kaggle/input/glove6b50dtxt/glove.6B.50d.txt') as f: 
 		for line in f:
 			values = line.split()
 			word = values[0]
