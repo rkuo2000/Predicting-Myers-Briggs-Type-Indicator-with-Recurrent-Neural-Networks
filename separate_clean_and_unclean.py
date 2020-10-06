@@ -6,7 +6,8 @@ import numpy as np
 import pandas as pd
 import csv
 
-df = pd.read_csv('mbti_1.csv')
+#df = pd.read_csv('mbti_1.csv')
+df = pd.read_csv('../../input/mbti-type/mbti_1.csv') # for Kaggle
 
 types = ('ISTJ', 'ISFJ', 'INFJ', 'INTJ', \
 		 'ISTP', 'ISFP', 'INFP', 'INTP', \
