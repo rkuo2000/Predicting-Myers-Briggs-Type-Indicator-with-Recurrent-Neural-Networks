@@ -241,8 +241,11 @@ for k in range(len(DIMENSIONS)):
 	y_test_a = [0 for ___ in predictions_a]
 	y_test_b = [1 for ___ in predictions_b]
 	y_test = y_test_a + y_test_b
+	print('--- {} ---'.format(DIMENSIONS[k]))
 	confusion = confusion_matrix(y_test, predictions)
+	print(confusion)
 	score = accuracy_score(y_test, predictions)
+	print(score)
 	with open('test_set_user_classification_{}.txt'.format(DIMENSIONS[k]), 'w') as f: 
 		f.write('*** {}/{} TEST SET CLASSIFICATION (USERS) ***\n'.format(DIMENSIONS[k][0], DIMENSIONS[k][1]))
 		f.write('Total posts classified: {}\n'.format(len(x_test)))
